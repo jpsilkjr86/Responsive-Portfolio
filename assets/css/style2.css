@@ -1,0 +1,77 @@
+
+/*CSS Styles for header and nav menu.*/
+header
+{
+	background-color: #ffffff;
+	width: 100%;
+	border-bottom: 2px solid #cccccc;
+}
+
+div.banner
+{
+	width: 960px;
+	margin: auto;
+	overflow: auto;
+}
+
+div.nameBox
+{
+	float: left;
+	background: #4aaaa5;
+}
+
+h1.nameBlock
+{
+	padding: 20px 40px;
+	color: #ffffff;
+}
+
+nav
+{
+	margin: 23px 0 10px 0;
+}
+
+li.menuBox
+{
+	float: right;
+	list-style-type: none;
+}
+
+
+a.menuLink
+{
+	display: block;
+	padding: 5px 15px;
+	color: #777777;
+	font-size: 19px;
+	border-left: 1px solid #e1e1e1;
+}
+
+a#leftmostLink
+{
+	border-left: none;
+}
+
+a.menuLink:link
+{
+	text-decoration: none;
+}
+
+
+a.menuLink:hover
+{
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+a.menuLink:active
+{
+	background-color: #188885;
+	color: #ffffff;
+}
+
+a#current
+{
+	background-color: #4aaaa5;
+	color: #ffffff;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!-- meta data. Style sheets follow the html flow -->
+<head>
+	<meta charset="UTF-8"/>
+	<title>John Silkey - Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style1.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style2.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style3.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style4.css"/>
+</head>
+
+<body>
+	<!-- div for making the sticky footer -->
+	<div class="wrapContent"> 
+
+		<!-- Top header content, width:100% with white bkg-->
+		<header>
+			<!--holding header content, margin:auto for centering-->
+			<div class="banner">
+				<!-- holds name content, float left -->
+				<div class="nameBox">
+					<h1 class="nameBlock">John Silkey</h1>
+				</div>
+				
+				<!--holds navigation menu content-->
+				<nav>
+					<!-- list is floated right, displayed as blocks -->
+					<ui>
+						<li class="menuBox">
+						  	<a class="menuLink" href="contact.html">Contact</a>
+						</li>
+						<li class="menuBox">
+						  	<a class="menuLink" id="current" href="portfolio.html">Portfolio</a>
+						</li>
+						<li class="menuBox">
+						  	<a class="menuLink" id="leftmostLink" href="index.html">About</a>
+						</li>
+					</ui>
+				</nav>
+			</div>
+		</header>
+
+		<!-- All middle row main content -->
+		<div class="midRowBkg">   
+			<!--container for middle row-->
+			<div class="mainContent"> 
+				<!--left column for article-->	
+				<section class="article">
+					<h1>Portfolio</h1>
+					<hr class="hr3px"/>
+					
+					<div class="projFloatLeft">
+						<a href="#">
+							<img class="portfolioLink" src="assets/images/city.jpg" alt="project1"/>
+							<div class="projectStrip">
+								<h4 class="projectTitle">Title1</h4>
+							</div>
+						</a>
+					</div>
+					<div class="projFloatRight">
+						<a href="#">
+							<img class="portfolioLink" src="assets/images/lanterns.jpg" alt="project2"/>
+							<div class="projectStrip">
+								<h4 class="projectTitle">Title2</h4>
+							</div>
+						</a>
+					</div>
+					<div class="projFloatLeft">
+						<a href="#">
+							<img class="portfolioLink" src="assets/images/smartphone.jpg" alt="project3"/>
+							<div class="projectStrip">
+								<h4 class="projectTitle">Title3</h4>
+							</div>
+						</a>
+					</div>
+					<div class="projFloatRight">
+						<a href="#">
+							<img class="portfolioLink" src="assets/images/sea.jpg" alt="project4"/>
+							<div class="projectStrip">
+								<h4 class="projectTitle">Title4</h4>
+							</div>
+						</a>
+					</div>
+					<div class="projFloatLeft">
+						<a href="#">
+							<img class="portfolioLink" src="assets/images/piglet.jpg" alt="project5"/>
+							<div class="projectStrip">
+								<h4 class="projectTitle">Title5</h4>
+							</div>
+						</a>
+					</div>
+					<div class="projFloatRight">
+						<a href="#">
+							<img class="portfolioLink" src="assets/images/stirfry.jpg" alt="project6"/>
+							<div class="projectStrip">
+								<h4 class="projectTitle">Title6</h4>
+							</div>
+						</a>
+					</div>
+				</section>
+				
+				<!--right panel for contact links-->
+				<aside class="contactBox">
+					<h3>Connect With Me</h3>
+					<hr class="hr2px"/>
+					
+					<a href="https://github.com/jpsilkjr86/" target="_blank">
+						<img class="contact" src="assets/images/github_icon.png" alt="github"/>
+					</a>
+				
+				
+					<a href="https://www.linkedin.com/in/john-silkey-jr-356815137/" target="_blank">
+						<img class="contact" src="assets/images/linkedin_icon.png" alt="LinkedIn"/>
+					</a>
+				
+				
+					<a href="http://stackoverflow.com/users/7797476/john-s" target="_blank">
+						<img class="contact" src="assets/images/stackoverflow_icon.png" alt="StackOverflow"/>
+					</a>					
+					
+				</aside>
+			</div>
+		</div>
+
+		<!-- The following three lines are for 
+		completing the sticky footer code-->
+		<div class="push"></div>
+	</div>
+	<div class="footer"></div>
+
+	<!-- All footer content -->
+	<footer>
+		<div class="footerContent">
+			<div class="footerText">&copy; Copyright 2017 John Silkey</div>
+		</div>
+	</footer>
+
+</body>
+</html>

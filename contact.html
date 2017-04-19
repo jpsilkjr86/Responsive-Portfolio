@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!-- meta data. Style sheets follow the html flow -->
+<head>
+	<meta charset="UTF-8"/>
+	<title>John Silkey - Contact</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style1.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style2.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style3.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style4.css"/>
+</head>
+
+<body>
+	<!-- div for making the sticky footer -->
+	<div class="wrapContent"> 
+
+		<!-- Top header content, width:100% with white bkg-->
+		<header>
+			<!--holding header content, margin:auto for centering-->
+			<div class="banner">
+				<!-- holds name content, float left -->
+				<div class="nameBox">
+					<h1 class="nameBlock">John Silkey</h1>
+				</div>
+				
+				<!--holds navigation menu content-->
+				<nav>
+					<!-- list is floated right, displayed as blocks -->
+					<ui>
+						<li class="menuBox">
+						  	<a class="menuLink" id="current" href="contact.html">Contact</a>
+						</li>
+						<li class="menuBox">
+						  	<a class="menuLink" href="portfolio.html">Portfolio</a>
+						</li>
+						<li class="menuBox">
+						  	<a class="menuLink" id="leftmostLink" href="index.html">About</a>
+						</li>
+					</ui>
+				</nav>
+			</div>
+		</header>
+
+		<!-- All middle row main content -->
+		<div class="midRowBkg">   
+			<!--container for middle row-->
+			<div class="mainContent"> 
+				<!--left column for article-->	
+				<section class="article">
+					<h1>Contact</h1>
+					<hr class="hr3px"/>
+					
+					<form action="">
+						<label>Name:</label>
+						<input type="text" placeholder="Jane Doe" required/>
+						<br><br>
+						<label>Email Address:</label>
+						<input type="email" placeholder="example@gmail.com" required/>
+						<br><br>
+						<label>Message:</label>
+						<textarea name="message" placeholder="Type your message here!" required></textarea>
+						<br><br>
+						<input id="submit" type="submit" value="Submit">
+					</form>
+
+				</section>
+				
+				<!--right panel for contact links-->
+				<aside class="contactBox">
+					<h3>Connect With Me</h3>
+					<hr class="hr2px"/>
+					
+					<a href="https://github.com/jpsilkjr86/" target="_blank">
+						<img class="contact" src="assets/images/github_icon.png" alt="github"/>
+					</a>
+				
+				
+					<a href="https://www.linkedin.com/in/john-silkey-jr-356815137/" target="_blank">
+						<img class="contact" src="assets/images/linkedin_icon.png" alt="LinkedIn"/>
+					</a>
+				
+				
+					<a href="http://stackoverflow.com/users/7797476/john-s" target="_blank">
+						<img class="contact" src="assets/images/stackoverflow_icon.png" alt="StackOverflow"/>
+					</a>					
+					
+				</aside>
+			</div>
+		</div>
+
+		<!-- The following three lines are for 
+		completing the sticky footer code-->
+		<div class="push"></div>
+	</div>
+	<div class="footer"></div>
+
+	<!-- All footer content -->
+	<footer>
+		<div class="footerContent">
+			<div class="footerText">&copy; Copyright 2017 John Silkey</div>
+		</div>
+	</footer>
+
+</body>
+</html>
