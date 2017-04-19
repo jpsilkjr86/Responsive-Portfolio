@@ -1,0 +1,163 @@
+
+/*Media Queries*/
+
+@media screen and (max-width: 980px)
+{
+
+	div.banner, div.mainContent, div.footerContent
+	{
+		width: 740px;
+	}
+
+	section.article
+	{
+		width: 380px;
+	}
+
+	img#profile 
+	{
+		width: 100%;
+		float: none;
+	}
+
+	div.projFloatLeft, div.projFloatRight
+	{
+		float: none;
+
+	}
+	
+	img.portfolioLink
+	{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px)
+{
+
+	div.banner, div.mainContent, div.footerContent
+	{
+		width: 620px;
+	}
+
+	section.article, aside.contactBox
+	{
+		width: auto;
+		float: none;
+		overflow: auto;
+	}
+
+	img#profile 
+	{
+		width: 210px;
+		float: left;
+	}
+
+	div.projFloatLeft
+	{
+		float: left;
+	}
+
+	div.projFloatRight
+	{
+		float: right;
+	}
+	
+	img.portfolioLink
+	{
+		width: 265px;
+	}
+}
+
+@media screen and (max-width: 640px)
+{
+
+	div.banner, div.mainContent, div.footerContent
+	{
+		width: 90%;
+	}
+
+	div.banner
+	{
+		margin: 0;
+		width: 100%;
+	}
+
+	div.nameBox
+	{
+		float: none;
+		width: 100%;
+		margin: auto;
+		text-align: center;
+	}
+
+	nav, ul
+	{
+		margin: auto;
+		overflow: hidden;
+	}
+	
+
+	li.menuBox {
+		width: 33.33%;
+		text-align: center;
+	}
+	
+
+	a.menuLink, a#leftmostLink
+	{
+		display: block;
+		color: #777777;
+		font-size: 19px;
+		border: none;
+		padding: 8px 0;
+	}
+
+	a#current
+	{
+		color: #777777;
+		background-color: #ffffff;
+	}
+
+	a#current:link
+	{
+		text-decoration: none;
+	}
+
+
+	a#current:hover, a#leftmostLink:hover
+	{
+		background-color: #4aaaa5;
+		color: #ffffff;
+	}
+
+	a#current:active
+	{
+		background-color: #188885;
+		color: #ffffff;
+	}
+
+	section.article, aside.contactBox
+	{
+		width: auto;
+		float: none;
+		overflow: auto;
+	}
+
+	img#profile 
+	{
+		width: 100%;
+		float: none;
+	}
+
+	div.projFloatLeft, div.projFloatRight
+	{
+		float: none;
+
+	}
+	
+	img.portfolioLink
+	{
+		width: 100%;
+	}
+}
