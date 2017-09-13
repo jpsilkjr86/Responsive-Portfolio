@@ -2,7 +2,7 @@
 /*CSS Styles for middle row, main content area.*/
 
 /*FOR ALL HTML PAGES*/
-div.midRowBkg
+main.midRowBkg
 {
 	background-image: url('../images/cork-wallet.png');
 	width: 100%;
